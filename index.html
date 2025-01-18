@@ -43,7 +43,6 @@
   <main class="container mx-auto px-4 py-8 flex-grow" id="content">
 
 
-    
   </main>
 
   <footer class="bg-gray-800 py-6">
@@ -67,7 +66,7 @@
   <script>
     const resumeData = {
       name: "Priyanshu Singh",
-      profilePic: "resources/My pfp.jpg", // Local profile picture path
+      profilePic: "/My%20pfp.jpg", // Public path
       summary: `
         I am an aspiring <strong>AI/ML Engineer</strong> with expertise in <strong>Python</strong>, <strong>C++</strong>, <strong>TensorFlow</strong>, and <strong>SQL</strong>. 
         My portfolio showcases cutting-edge projects, including creating an <strong>AI-powered NPC</strong> with <strong>Metahuman</strong>, implementing 
@@ -99,25 +98,25 @@
           title: "Nature First Hackathon",
           description: "Developed a solution to address environmental issues using AI.",
           rank: "Finals",
-          certificateUrl: "file:///D:/Portfolio/resources/NFH%20certificate%20Hackathon.jpg",  // Local certificate path
+          certificateUrl: "/NFH%20certificate%20Hackathon.jpg", // Public path
         },
         {
           title: "Parul Hack Verse",
           description: "Created an AI-based chatbot for customer support.",
           rank: "Finals",
-          certificateUrl: "file:///D:/Portfolio/resources/Parul%20Hackathon.pdf", // Local certificate path
+          certificateUrl: "/Parul%20Hackathon.pdf", // Public path
         },
         {
           title: "HackAurora",
           description: "Created an Agentic RAG for FinTech for Impaired Vision Users",
           rank: "Finals",
-          certificateUrl: "file:///D:/Portfolio/resources/HackAurora%20Hackathon.pdf",  // Local certificate path
+          certificateUrl: "/HackAurora%20Hackathon.pdf", // Public path
         },
         {
           title: "Paradox Hackathon",
           description: "Created a text analyzer with a F1 score of 72.24%",
           rank: "7th Rank",
-          certificateUrl: "file:///D:/Portfolio/resources/Paradox%20Hackathon%20Certificate.jpg",  // Local certificate path
+          certificateUrl: "/Paradox%20Hackathon%20Certificate.jpg", // Public path
         },
       ],
       additionalInfo: {
@@ -125,11 +124,11 @@
         certifications: [
           {
             name: "DSA in C/C++",
-            certificateUrl: "file:///D:/Portfolio/resources/DSA_C_C++.pdf",
+            certificateUrl: "/DSA_C_C++.pdf", // Public path
           },
           {
             name: "Hackerrank in SQL",
-            certificateUrl: "file:///D:/Portfolio/resources/HR_sql.pdf",
+            certificateUrl: "/HR_sql.pdf", // Public path
           }
         ],
         tools: [
@@ -141,7 +140,7 @@
           "Adobe Premiere Pro",
         ],
       },
-      
+
     };
 
     const content = document.getElementById("content");
